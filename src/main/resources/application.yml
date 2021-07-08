@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: livrariaNats
+  server:
+    cors:
+      enabled: true
+    port: 8081
+
+endpoints:
+  health:
+      enabled: true
+nats:
+  addresses: localhost:4222
+  username: guest
+  password: guest
+
