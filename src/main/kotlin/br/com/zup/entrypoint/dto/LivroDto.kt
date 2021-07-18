@@ -1,4 +1,4 @@
-package br.com.zup.entrypoint.controller.dto
+package br.com.zup.entrypoint.dto
 
 import java.util.*
 

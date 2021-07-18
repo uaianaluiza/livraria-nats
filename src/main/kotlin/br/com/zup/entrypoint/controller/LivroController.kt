@@ -1,7 +1,7 @@
 package br.com.zup.entrypoint.controller
 
 import br.com.zup.core.model.Livro
-import br.com.zup.service.LivroService
+import br.com.zup.core.port.LivroServicePort
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.annotation.*
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory
 import java.util.*
 
 @Controller("/livros")
-class LivroController(private val livroService: LivroService){
+class LivroController(private val livroService: LivroServicePort){
     private val logger = LoggerFactory.getLogger(LivroController::class.java)
 
     @Post

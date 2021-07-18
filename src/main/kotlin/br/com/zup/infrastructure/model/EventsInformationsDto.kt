@@ -1,4 +1,4 @@
-package br.com.zup.infrastructure.client.model
+package br.com.zup.infrastructure.model
 
 import br.com.zup.core.model.Livro
 import java.util.*
