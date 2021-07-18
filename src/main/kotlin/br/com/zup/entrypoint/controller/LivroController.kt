@@ -1,4 +1,4 @@
-package br.com.zup.controller
+package br.com.zup.entrypoint.controller
 
 import br.com.zup.core.model.Livro
 import br.com.zup.service.LivroService
