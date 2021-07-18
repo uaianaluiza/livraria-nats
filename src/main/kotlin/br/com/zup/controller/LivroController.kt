@@ -14,7 +14,7 @@ class LivroController(private val livroService: LivroService){
 
     @Post
     fun create(@Body livro: Livro):HttpResponse<Any>{
-        logger.info("Livro $livro salvo com sucesso!")
+        logger.info("Livro salvo com sucesso!$livro ")
         return HttpResponse.created(HttpStatus.ACCEPTED).body(this.livroService.send(livro))
     }
 
