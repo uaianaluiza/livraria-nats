@@ -1,6 +1,6 @@
 package br.com.zup.core.service
 
-import br.com.zup.client.LivroClient
+import br.com.zup.infrastructure.client.LivroClient
 import br.com.zup.core.model.Livro
 import br.com.zup.service.LivroService
 import org.slf4j.LoggerFactory

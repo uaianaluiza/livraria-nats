@@ -1,4 +1,4 @@
-package br.com.zup.client
+package br.com.zup.infrastructure.client
 
 import br.com.zup.core.model.Livro
 import io.micronaut.nats.annotation.NatsClient
