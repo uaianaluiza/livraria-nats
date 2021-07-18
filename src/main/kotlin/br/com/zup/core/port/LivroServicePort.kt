@@ -1,6 +1,6 @@
 package br.com.zup.core.port
 
-import br.com.zup.model.Livro
+import br.com.zup.core.model.Livro
 import javax.inject.Singleton
 
 @Singleton

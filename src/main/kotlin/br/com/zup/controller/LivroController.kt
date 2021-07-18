@@ -1,6 +1,6 @@
 package br.com.zup.controller
 
-import br.com.zup.model.Livro
+import br.com.zup.core.model.Livro
 import br.com.zup.service.LivroService
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.HttpStatus

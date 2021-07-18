@@ -1,9 +1,9 @@
 package br.com.zup.service
 
-import br.com.zup.model.Livro
+import br.com.zup.core.model.Livro
 import javax.inject.Singleton
 
 @Singleton
 interface LivroService {
-    fun send(livro: Livro):Livro
+    fun send(livro: Livro): Livro
 }

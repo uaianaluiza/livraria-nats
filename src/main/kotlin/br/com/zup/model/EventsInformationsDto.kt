@@ -1,5 +1,6 @@
 package br.com.zup.model
 
+import br.com.zup.core.model.Livro
 import java.util.*
 
 data class EventsInformationsDto(
