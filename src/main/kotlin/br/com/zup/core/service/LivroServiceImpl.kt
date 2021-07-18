@@ -1,4 +1,4 @@
-package br.com.zup.core.port.service
+package br.com.zup.core.service
 
 import br.com.zup.client.LivroClient
 import br.com.zup.model.Livro
